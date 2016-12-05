@@ -36,7 +36,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>BizTalkComponents.SetPropertyFromXPath.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\packages\Shared.Key.Coor.1.0.0\CoorKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.BizTalk.GlobalPropertySchemas, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -73,6 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\packages\Shared.Key.Coor.1.0.0\CoorKey.snk">
+      <Link>CoorKey.snk</Link>
+    </None>
     <None Include="BizTalkComponents.PipelineComponents.SetPropertyFromXPath.csproj.nuspec" />
     <None Include="BizTalkComponents.SetPropertyFromXPath.snk" />
     <Compile Include="SetPropertyFromXpath.Component.cs" />
