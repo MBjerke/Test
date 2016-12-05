@@ -8,8 +8,7 @@
 		<SourceLocation>c:\$(BUILD_BUILDNUMBER)</SourceLocation>
 	</PropertyGroup>
 	<ItemGroup>
-		<Resource Include="$(BUILD_SOURCESDIRECTORY)\Src\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.SetPropertyFromXPath.dll" />
-		
+		<Resource Include="$(BUILD_SOURCESDIRECTORY)\Src\SetPropertyFromXPath\bin\$(BuildConfiguration)\BizTalkComponents.PipelineComponents.SetPropertyFromXPath.dll" />		
 	</ItemGroup>
 	<Target Name="GenerateMsi">
  
