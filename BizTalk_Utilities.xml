@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObjects>
+  <ExtensionObject Namespace ="http://BizTalk_Common_Utilities.DatabaseHelper"
+                 AssemblyName="BizTalk_Common_Utilities, 
+                               Version=0.0.0.0, 
+                               Culture=neutral, 
+                               PublicKeyToken=10f28ba066dbfcdd"
+                 ClassName="BizTalk_Common_Utilities.DatabaseHelper" />
+</ExtensionObjects>
